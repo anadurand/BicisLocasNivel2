@@ -1,11 +1,3 @@
-window.addEventListener("load",function(){
-  var divBox = document.getElementsByClassName("input-box");
-  //divBox[0].appendChild(createTooltip("Falta ingresar su nombre"));
-  //divBox[1].appendChild(createTooltip("Falta ingresar su Apellido"));
-  //divBox[2].appendChild(createTooltip("Falta ingresar su correo"));
-  //divBox[3].appendChild(createTooltip("La contrseña debe tener al menos 6 caracteres"));
-  //divBox[4].appendChild(createTooltip("Debe seleccionar al menos una Bici"));
-});
 
 function createTooltip(mensaje){
   var span = document.createElement("span");
